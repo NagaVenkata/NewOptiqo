@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B53257E9199A97E9004A3ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53257E8199A97E9004A3ED6 /* Foundation.framework */; };
+		B53257EB199A97E9004A3ED6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53257EA199A97E9004A3ED6 /* CoreGraphics.framework */; };
+		B53257ED199A97E9004A3ED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53257EC199A97E9004A3ED6 /* UIKit.framework */; };
+		B53257EF199A97E9004A3ED6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53257EE199A97E9004A3ED6 /* CoreData.framework */; };
+		B53257F5199A97E9004A3ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B53257F3199A97E9004A3ED6 /* InfoPlist.strings */; };
+		B53257F7199A97E9004A3ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53257F6199A97E9004A3ED6 /* main.m */; };
+		B53257FB199A97E9004A3ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53257FA199A97E9004A3ED6 /* AppDelegate.m */; };
+		B53257FE199A97E9004A3ED6 /* NewOptiqo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B53257FC199A97E9004A3ED6 /* NewOptiqo.xcdatamodeld */; };
+		B5325800199A97E9004A3ED6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53257FF199A97E9004A3ED6 /* Images.xcassets */; };
+		B5325807199A97E9004A3ED6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5325806199A97E9004A3ED6 /* XCTest.framework */; };
+		B5325808199A97E9004A3ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53257E8199A97E9004A3ED6 /* Foundation.framework */; };
+		B5325809199A97E9004A3ED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53257EC199A97E9004A3ED6 /* UIKit.framework */; };
+		B532580A199A97E9004A3ED6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53257EE199A97E9004A3ED6 /* CoreData.framework */; };
+		B5325812199A97E9004A3ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5325810199A97E9004A3ED6 /* InfoPlist.strings */; };
+		B5325814199A97E9004A3ED6 /* NewOptiqoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5325813199A97E9004A3ED6 /* NewOptiqoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B532580B199A97E9004A3ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53257DD199A97E8004A3ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53257E4199A97E9004A3ED6;
+			remoteInfo = NewOptiqo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B53257E5199A97E9004A3ED6 /* NewOptiqo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewOptiqo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53257E8199A97E9004A3ED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B53257EA199A97E9004A3ED6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B53257EC199A97E9004A3ED6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B53257EE199A97E9004A3ED6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B53257F2199A97E9004A3ED6 /* NewOptiqo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewOptiqo-Info.plist"; sourceTree = "<group>"; };
+		B53257F4199A97E9004A3ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B53257F6199A97E9004A3ED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B53257F8199A97E9004A3ED6 /* NewOptiqo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewOptiqo-Prefix.pch"; sourceTree = "<group>"; };
+		B53257F9199A97E9004A3ED6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B53257FA199A97E9004A3ED6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B53257FD199A97E9004A3ED6 /* NewOptiqo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewOptiqo.xcdatamodel; sourceTree = "<group>"; };
+		B53257FF199A97E9004A3ED6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5325805199A97E9004A3ED6 /* NewOptiqoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewOptiqoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5325806199A97E9004A3ED6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B532580F199A97E9004A3ED6 /* NewOptiqoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewOptiqoTests-Info.plist"; sourceTree = "<group>"; };
+		B5325811199A97E9004A3ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5325813199A97E9004A3ED6 /* NewOptiqoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewOptiqoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53257E2199A97E9004A3ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53257EB199A97E9004A3ED6 /* CoreGraphics.framework in Frameworks */,
+				B53257EF199A97E9004A3ED6 /* CoreData.framework in Frameworks */,
+				B53257ED199A97E9004A3ED6 /* UIKit.framework in Frameworks */,
+				B53257E9199A97E9004A3ED6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5325802199A97E9004A3ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5325807199A97E9004A3ED6 /* XCTest.framework in Frameworks */,
+				B532580A199A97E9004A3ED6 /* CoreData.framework in Frameworks */,
+				B5325809199A97E9004A3ED6 /* UIKit.framework in Frameworks */,
+				B5325808199A97E9004A3ED6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53257DC199A97E8004A3ED6 = {
+			isa = PBXGroup;
+			children = (
+				B53257F0199A97E9004A3ED6 /* NewOptiqo */,
+				B532580D199A97E9004A3ED6 /* NewOptiqoTests */,
+				B53257E7199A97E9004A3ED6 /* Frameworks */,
+				B53257E6199A97E9004A3ED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53257E6199A97E9004A3ED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53257E5199A97E9004A3ED6 /* NewOptiqo.app */,
+				B5325805199A97E9004A3ED6 /* NewOptiqoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53257E7199A97E9004A3ED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B53257E8199A97E9004A3ED6 /* Foundation.framework */,
+				B53257EA199A97E9004A3ED6 /* CoreGraphics.framework */,
+				B53257EC199A97E9004A3ED6 /* UIKit.framework */,
+				B53257EE199A97E9004A3ED6 /* CoreData.framework */,
+				B5325806199A97E9004A3ED6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B53257F0199A97E9004A3ED6 /* NewOptiqo */ = {
+			isa = PBXGroup;
+			children = (
+				B53257F9199A97E9004A3ED6 /* AppDelegate.h */,
+				B53257FA199A97E9004A3ED6 /* AppDelegate.m */,
+				B53257FF199A97E9004A3ED6 /* Images.xcassets */,
+				B53257FC199A97E9004A3ED6 /* NewOptiqo.xcdatamodeld */,
+				B53257F1199A97E9004A3ED6 /* Supporting Files */,
+			);
+			path = NewOptiqo;
+			sourceTree = "<group>";
+		};
+		B53257F1199A97E9004A3ED6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53257F2199A97E9004A3ED6 /* NewOptiqo-Info.plist */,
+				B53257F3199A97E9004A3ED6 /* InfoPlist.strings */,
+				B53257F6199A97E9004A3ED6 /* main.m */,
+				B53257F8199A97E9004A3ED6 /* NewOptiqo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B532580D199A97E9004A3ED6 /* NewOptiqoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5325813199A97E9004A3ED6 /* NewOptiqoTests.m */,
+				B532580E199A97E9004A3ED6 /* Supporting Files */,
+			);
+			path = NewOptiqoTests;
+			sourceTree = "<group>";
+		};
+		B532580E199A97E9004A3ED6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B532580F199A97E9004A3ED6 /* NewOptiqoTests-Info.plist */,
+				B5325810199A97E9004A3ED6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53257E4199A97E9004A3ED6 /* NewOptiqo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5325817199A97E9004A3ED6 /* Build configuration list for PBXNativeTarget "NewOptiqo" */;
+			buildPhases = (
+				B53257E1199A97E9004A3ED6 /* Sources */,
+				B53257E2199A97E9004A3ED6 /* Frameworks */,
+				B53257E3199A97E9004A3ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewOptiqo;
+			productName = NewOptiqo;
+			productReference = B53257E5199A97E9004A3ED6 /* NewOptiqo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5325804199A97E9004A3ED6 /* NewOptiqoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B532581A199A97E9004A3ED6 /* Build configuration list for PBXNativeTarget "NewOptiqoTests" */;
+			buildPhases = (
+				B5325801199A97E9004A3ED6 /* Sources */,
+				B5325802199A97E9004A3ED6 /* Frameworks */,
+				B5325803199A97E9004A3ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B532580C199A97E9004A3ED6 /* PBXTargetDependency */,
+			);
+			name = NewOptiqoTests;
+			productName = NewOptiqoTests;
+			productReference = B5325805199A97E9004A3ED6 /* NewOptiqoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53257DD199A97E8004A3ED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Umapathi;
+				TargetAttributes = {
+					B5325804199A97E9004A3ED6 = {
+						TestTargetID = B53257E4199A97E9004A3ED6;
+					};
+				};
+			};
+			buildConfigurationList = B53257E0199A97E8004A3ED6 /* Build configuration list for PBXProject "NewOptiqo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B53257DC199A97E8004A3ED6;
+			productRefGroup = B53257E6199A97E9004A3ED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53257E4199A97E9004A3ED6 /* NewOptiqo */,
+				B5325804199A97E9004A3ED6 /* NewOptiqoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53257E3199A97E9004A3ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53257F5199A97E9004A3ED6 /* InfoPlist.strings in Resources */,
+				B5325800199A97E9004A3ED6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5325803199A97E9004A3ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5325812199A97E9004A3ED6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53257E1199A97E9004A3ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53257FE199A97E9004A3ED6 /* NewOptiqo.xcdatamodeld in Sources */,
+				B53257FB199A97E9004A3ED6 /* AppDelegate.m in Sources */,
+				B53257F7199A97E9004A3ED6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5325801199A97E9004A3ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5325814199A97E9004A3ED6 /* NewOptiqoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B532580C199A97E9004A3ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53257E4199A97E9004A3ED6 /* NewOptiqo */;
+			targetProxy = B532580B199A97E9004A3ED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B53257F3199A97E9004A3ED6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53257F4199A97E9004A3ED6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5325810199A97E9004A3ED6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5325811199A97E9004A3ED6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5325815199A97E9004A3ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5325816199A97E9004A3ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5325818199A97E9004A3ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewOptiqo/NewOptiqo-Prefix.pch";
+				INFOPLIST_FILE = "NewOptiqo/NewOptiqo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5325819199A97E9004A3ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewOptiqo/NewOptiqo-Prefix.pch";
+				INFOPLIST_FILE = "NewOptiqo/NewOptiqo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B532581B199A97E9004A3ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewOptiqo.app/NewOptiqo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewOptiqo/NewOptiqo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NewOptiqoTests/NewOptiqoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B532581C199A97E9004A3ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewOptiqo.app/NewOptiqo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewOptiqo/NewOptiqo-Prefix.pch";
+				INFOPLIST_FILE = "NewOptiqoTests/NewOptiqoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53257E0199A97E8004A3ED6 /* Build configuration list for PBXProject "NewOptiqo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5325815199A97E9004A3ED6 /* Debug */,
+				B5325816199A97E9004A3ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5325817199A97E9004A3ED6 /* Build configuration list for PBXNativeTarget "NewOptiqo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5325818199A97E9004A3ED6 /* Debug */,
+				B5325819199A97E9004A3ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B532581A199A97E9004A3ED6 /* Build configuration list for PBXNativeTarget "NewOptiqoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B532581B199A97E9004A3ED6 /* Debug */,
+				B532581C199A97E9004A3ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B53257FC199A97E9004A3ED6 /* NewOptiqo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B53257FD199A97E9004A3ED6 /* NewOptiqo.xcdatamodel */,
+			);
+			currentVersion = B53257FD199A97E9004A3ED6 /* NewOptiqo.xcdatamodel */;
+			path = NewOptiqo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B53257DD199A97E8004A3ED6 /* Project object */;
+}
